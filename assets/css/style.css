@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 28px;
   margin: 0;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu > ul > li {
   position: relative;
-  white-space: nowrap;
+  /* white-space: wrap; */
   float: left;
 }
 
@@ -325,8 +325,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height:100vh;
-  background: url("../img/hero-bg.jpg");
+  height:50vh;
+  background: url("../img/hero-bg.png");
   position:relative;
 }
 
@@ -346,6 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-logo {
   margin-bottom: 10px;
+  margin-top: 50px;
 }
 
 #hero h1 {
@@ -357,10 +358,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #6e7e4a;
+  color: #1d2016;
   margin-bottom: 30px;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -597,7 +598,8 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 400px;
+  min-height: 200px;
+  min-width: 100px
   position: relative;
 }
 
@@ -784,7 +786,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+/* .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -935,7 +937,7 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -973,7 +975,9 @@ section {
 
 .testimonials .testimonial-item {
   text-align: center;
-  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 30px;
+  color: rgb(10, 54, 10);
 }
 
 .testimonials .testimonial-item p {
@@ -993,12 +997,12 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: rgb(63, 36, 36);
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #ddd;
+  color: rgb(98, 104, 88);
   margin: 0 0 15px 0;
 }
 
@@ -1520,7 +1524,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
   padding-top: 0;
 }
 
@@ -1599,7 +1603,7 @@ section {
     position: static;
     margin-top: 30px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
