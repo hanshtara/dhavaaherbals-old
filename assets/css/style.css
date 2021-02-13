@@ -570,12 +570,13 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us {
-  background: whitesmoke;
+  background: rgb(138, 201, 97);
   padding: 0;
 }
 
 .why-us .content {
   padding: 60px 100px 0 100px;
+  font-family: fantasy;
 }
 
 .why-us .content h3 {
@@ -590,8 +591,10 @@ section {
 }
 
 .why-us .content p {
-  font-size: 15px;
-  color: #959595;
+  font-family: 'Satisfy', serif;
+  font-family: fantasy;
+  font-size: 18px;
+  color: #ffffff;
 }
 
 .why-us .video-box {
