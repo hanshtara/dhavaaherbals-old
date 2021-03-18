@@ -601,8 +601,8 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 200px;
-  min-width: 100px
+  min-height: 20px;
+  min-width: 20px;
   position: relative;
 }
 
